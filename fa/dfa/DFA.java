@@ -6,16 +6,30 @@
  */
 package fa.dfa;
 
+import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Set;
 
 import fa.State;
 
 public class DFA implements DFAInterface {
 
+    private Set<State> stateSet;
+    private Set<Character> sigma;
+    private State startState;
+    // I don't know how to setup the Map yet for the transition function 
+    // private Map. . . transitionFunction;
+    private Set<State> finalStates;
+    
+    public DFA() {
+        stateSet = new HashSet<>();
+        sigma = new HashSet<>();
+        transitionFunction = new HashMap<>(); // I believe HashMap will be correct for this, I just dunno how to define the transition function yet
+        finalStates = new HashSet<>();
+    }
+
     @Override
     public boolean addState(String name) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'addState'");
     }
 
     @Override
