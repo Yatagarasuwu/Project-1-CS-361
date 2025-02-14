@@ -12,6 +12,13 @@ This project is a Java implementation of a **Deterministic Finite Automaton (DFA
 - Includes JUnit 5 test cases in `DFATest.java`.
 
 
+## Reflection
+
+Throughout this project, I believe the greatest feat for our group was simply the communication we had with eachother. It felt like we both understood when we could work on the project, how we should do it, and when we had any concerns we had consistent conversation. More concretely, I feel like understanding the theory and setup of the project went great -- we understood how we needed to setup the project, which Set and Map to use (hash), how we needed to implement the variables, and overall just had a strong sense of direction the whole project. This extended to our documentation as well - via the method commenting, our aforementioned communication, and setup, looking at the code itself felt easy and understandable, even for content I didn't write o  hadn't seen yet.
+
+However, while the writing of the DFA and DFAState files went well, I'm still a bit hazy on how to comprehensively test such a large undertaking that DFA's have. It feels like there are plenty of potential outliers to cover for this topic, so personally, it is a bit stressful to not have a fully concrete list of tests from the start. I feel like this is the point I would tell myself to focus on more -- focus on implementing as many tests as possible, so I know the end goal, before finishing DFA and DFAState.
+ 
+ 
 ## Running Tests
 To run the JUnit tests:
 "mvn test"
@@ -32,4 +39,13 @@ The DFA implementation supports the following operations:
 - **Check string acceptance:** `dfa.accepts("101");`
 - **Swap transition symbols:** `dfa.swap('0', '1');`
 
+
+## Sources used
+
+ The only thing I can think of is that I used w3Schools and Geeks4Geeks to brush up on HashMaps/HashSets oncemore. Nothing too much, just needed to revisit the concepts.
+
+ https://www.w3schools.com/java/java_hashmap.asp
+ https://www.geeksforgeeks.org/java-util-hashmap-in-java-with-examples/
+https://www.w3schools.com/java/java_hashset.asp
+https://www.geeksforgeeks.org/hashset-in-java/
 
