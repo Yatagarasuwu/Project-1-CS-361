@@ -1,5 +1,8 @@
-# Project-1-CS-361
-### Parker Smith, Sabastian Leeper
+# Project #: Project Name
+
+* Author: Parker Smith, Sabastian Leeper
+* Class: CS361 Section #1
+* Semester: Spring 2025
 ## Overview
 This project is a Java implementation of a **Deterministic Finite Automaton (DFA)** for CS 361. The project models DFA behavior, including state transitions, string acceptance, and symbol swapping.
 
