@@ -32,6 +32,12 @@ Expected output:
 [INFO] Tests run: X, Failures: 0, Errors: 0, Skipped: 0
 [INFO] BUILD SUCCESS
 
+## Running Main.java
+Open the terminal
+Run the following command to make sure everything is good to go: mvn clean install
+Run: mvn exec:java -Dexec.mainClass="Main"
+
+
 
 ## Usage
 The DFA implementation supports the following operations:
